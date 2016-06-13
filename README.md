@@ -1,9 +1,11 @@
-Prerequisite softwares<br>
+Prerequisite softwares
+=================
 1  Vagrant<br>
 2  Oracle VirtualBOX<br>
 3  ChefDK<br>
 
-Instructions<br>
+Instructions
+=================
 1  Clone the repo<br>
 2  berks install (to install dependent cookbooks)<br>
 3  kitchen list (for listing all possibilities)<br>
