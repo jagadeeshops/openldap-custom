@@ -1,13 +1,13 @@
-Prerequisite softwares
-1  Vagrant
-2  Oracle VirtualBOX
-3  ChefDK
+Prerequisite softwares<br>
+1  Vagrant<br>
+2  Oracle VirtualBOX<br>
+3  ChefDK<br>
 
-Instructions
-1  Clone the repo
-2  berks install (to install dependent cookbooks)
-3  kitchen list (for listing all possibilities)
-4  kitchen test server-centos-67 (for testing in centos 6.7)
+Instructions<br>
+1  Clone the repo<br>
+2  berks install (to install dependent cookbooks)<br>
+3  kitchen list (for listing all possibilities)<br>
+4  kitchen test server-centos-67 (for testing in centos 6.7)<br>
 
 
 
