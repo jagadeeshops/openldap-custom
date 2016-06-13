@@ -23,11 +23,11 @@ platforms:
 suites:
 - name: server
   run_list:
-    # - recipe[openldap-test::ssl]
-    # - recipe[openldap::server]
-    # - recipe[openldap::auth]
-    # - recipe[minitest-handler]
+    - recipe[openldap-test::ssl]
+    - recipe[openldap::server]
+    - recipe[openldap::auth]
     - recipe[group_addition]
+    - recipe[minitest-handler]
   attributes:
     openldap:
       rootpw: "{SSHA}6BjlvtSbVCL88li8IorkqMSofkLio58/" # secretsauce
