@@ -1,3 +1,18 @@
+Prerequisite softwares
+1  Vagrant
+2  Oracle VirtualBOX
+3  ChefDK
+
+Instructions
+1  Clone the repo
+2  berks install (to install dependent cookbooks)
+3  kitchen list (for listing all possibilities)
+4  kitchen test server-centos-67 (for testing in centos 6.7)
+
+
+
+
+
 openldap Cookbook
 =================
 
